@@ -1,0 +1,192 @@
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.scale3 {
+  transform: scale(3)
+}
+
+.inner {
+  width: 100%;
+}
+
+.header-inner {
+  height: 46px;
+  background-color: #fff;
+  padding: 15px 0;
+}
+
+.contact {
+  background-color: #74cfae;
+  color: #fff;
+  font-size: 12px;
+  margin-left: 1000px;
+  padding: 14px 12px;
+  transition: color 0.3s;
+}
+
+.contact:hover {
+  color: #333;
+}
+
+.theme {
+  background-color: #f2f2f2;
+  padding: 250px 0;
+}
+
+.theme-title {
+  color: #74cfae;
+  font-size: 90px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.theme-text {
+  color: #c0c0c0;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.section-what {
+  background-color: #74cfae;
+  padding-top: 50px;
+}
+
+.what-we-can-do {
+  margin-left: 150px;
+  vertical-align: top;
+}
+
+.what-title {
+  color: #fff;
+  font-size: 24px;
+}
+
+.what-text {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 35px;
+}
+
+.article-our {
+  background-color: #f2f2f2;
+  padding: 60px 0 70px 0;
+}
+
+.our-title {
+  color: #333;
+  font-size: 24px;
+}
+
+.our-image {
+  letter-spacing: -.4em;
+  width: 1100px;
+  margin: 40px auto 0 auto;
+}
+
+.image-unit {
+  margin-left: 100px;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.our-text {
+  color: #333;
+}
+
+.image-unit:hover {
+  opacity: 1;
+}
+
+.image-unit:nth-child(3n+1) {
+  margin-left: 0;
+}
+
+.image-unit:nth-child(n+4) {
+  margin-top: 80px;
+}
+
+.our-unit {
+  margin-top: 90px;
+}
+
+.our-email {
+  background-color: #74cfae;
+  color: #fff;
+  font-size: 12px;
+  margin-left: 90px;
+  padding: 14px 20px;
+  transition: color 0.3s;
+  vertical-align: top;
+}
+
+.our-email:hover {
+  color: #333;
+}
+
+.section-skill {
+  background-color: #4e4e4e;
+  padding: 70px 0 100px 0;
+}
+
+.skill-title {
+  color: #fff;
+  font-size: 20px;
+}
+
+.skill-image {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.circle-image {
+  margin-left: 180px;
+}
+
+.circle-image:first-child {
+  margin-left: 0;
+}
+
+.skill-text {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.nav-sns {
+  background-color: #f2f2f2;
+  padding: 200px 0;
+}
+
+.sns-unit {
+  color: #74cfae;
+  height: 120px;
+  line-height: 120px;
+  transition: background-color 3s;
+  width: 185px;
+}
+
+.sns-unit:hover {
+  background-color: #fff;
+}
+
+.footer-inner {
+  background-color: #74cfae;
+  color: #fff;
+  padding: 20px 0 25px 0;
+}
+
+.footer-text {
+  margin-left: 1000px;
+}
