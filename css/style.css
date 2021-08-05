@@ -1,6 +1,10 @@
 
-.body {
-  font-family: 'Lato','Raleway';
+body {
+  font-family: 'Raleway';
+}
+
+.Lato {
+  font-family: 'Lato';
 }
 
 .clearfix::after {
@@ -70,12 +74,12 @@
 }
 
 .what-image {
-  margin-left: 160px;
+  margin-left: 100px;
   vertical-align: bottom;
 }
 
 .what-we-can-do {
-  margin-left: 100px;
+  margin-left: 150px;
   vertical-align: top;
 }
 
@@ -116,6 +120,8 @@
 
 .our-text {
   color: #333;
+  font-size: 19px;
+  line-height: 23px;
 }
 
 .image-unit:hover {
