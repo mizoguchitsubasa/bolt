@@ -1,6 +1,11 @@
 
 body {
   font-family: 'Raleway';
+  margin: 0 auto;
+}
+
+main {
+  padding-top: 76px;
 }
 
 .Lato {
@@ -17,23 +22,26 @@ body {
   display: inline-block;
 }
 
-.text-align {
-  text-align: center;
-}
-
 .scale3 {
   transform: scale(3)
 }
 
 .inner {
+  margin: 0 auto;
+  text-align: center;
+  width: 1100px;
+}
+
+.header {
+  background-color: #fff;
+  position: fixed;
   width: 100%;
+  z-index: 2;
 }
 
 .header-inner {
   height: 46px;
-  background-color: #fff;
   padding: 15px 0;
-  position: fixed;
 }
 
 .contact {
@@ -50,9 +58,14 @@ body {
   color: #333;
 }
 
-.theme {
+.title {
   background-color: #f2f2f2;
+  width: 100%;
+}
+
+.theme {
   padding: 250px 0;
+  width: 100%;
 }
 
 .theme-title {
@@ -71,15 +84,16 @@ body {
 .section-what {
   background-color: #74cfae;
   padding-top: 50px;
+  width: 100%;
 }
 
 .what-image {
-  margin-left: 100px;
+  margin-left: 90px;
   vertical-align: bottom;
 }
 
 .what-we-can-do {
-  margin-left: 150px;
+  margin-left: 130px;
   vertical-align: top;
 }
 
@@ -97,8 +111,8 @@ body {
 }
 
 .article-our {
-  background-color: #f2f2f2;
   padding: 60px 0 70px 0;
+  width: 100%;
 }
 
 .our-title {
@@ -110,6 +124,7 @@ body {
   letter-spacing: -.4em;
   width: 1100px;
   margin: 40px auto 0 auto;
+  z-index: 1;
 }
 
 .image-unit {
@@ -185,7 +200,6 @@ body {
 }
 
 .nav-sns {
-  background-color: #f2f2f2;
   padding: 200px 0;
 }
 
@@ -201,12 +215,16 @@ body {
   background-color: #fff;
 }
 
-.footer-inner {
+.footer {
   background-color: #74cfae;
-  color: #fff;
+  width: 100%;
+}
+
+.footer-inner {
   padding: 20px 0 25px 0;
 }
 
 .footer-text {
-  margin-left: 1000px;
+  color: #fff;
+  margin-left: 800px;
 }
