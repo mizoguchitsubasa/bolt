@@ -40,15 +40,16 @@ ul {
 }
 
 .fa-bolt {
-  display: inline-block;
+  float: left;
+  margin-top: 15px;
 }
 
 .contact {
   background-color: #74cfae;
   color: #fff;
-  display: inline-block;
+  display: block;
+  float: right;
   font-size: 12px;
-  margin-left: 1000px;
   padding: 14px 12px;
   text-decoration: none;
   transition: color 0.3s;
@@ -148,6 +149,14 @@ ul {
   margin-top: 0;
 }
 
+.image-unit a {
+  display: block;
+}
+
+.vertical-align-middle {
+  vertical-align: middle;
+}
+
 .our-unit {
   margin-top: 90px;
 }
@@ -210,7 +219,6 @@ ul {
 }
 
 .sns-title {
-  letter-spacing: -.4em;
   text-align: center;
 }
 
@@ -223,6 +231,10 @@ ul {
 
 .sns-unit:hover {
   background-color: #fff;
+}
+
+.sns-unit a {
+  display: block;
 }
 
 .sns-color {
@@ -247,10 +259,6 @@ ul {
 
   .inner {
     width: 97%;
-  }
-  
-  .contact {
-    margin-left: 86%;
   }
   
   .section-what {
@@ -280,10 +288,6 @@ ul {
   
   .image-unit:nth-child(4) {
     margin-top: 80px;
-  }
-
-  .vertical-align-middle {
-    vertical-align: middle;
   }
 
   .our-unit {
@@ -327,7 +331,8 @@ ul {
   .fa-bars {
     border : 1px solid #ddd;
     border-radius: 4px;
-    display: inline-block;
+    display: inline;
+    float: right;
     padding: 10px;
     margin-left: 70%;
     opacity: 0.3;
@@ -340,12 +345,12 @@ ul {
   
   .theme-title {
     margin: 0 auto;
-    width: 300px;
+    width: auto;
   }
   
   .theme-text {
     margin: 20px auto 0;
-    width: 300px;
+    width: auto;
   }
   
   .section-what {
