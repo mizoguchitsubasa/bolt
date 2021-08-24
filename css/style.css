@@ -17,6 +17,12 @@ ul {
   list-style-type: none;
 }
 
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .scale3 {
   transform: scale(3)
 }
@@ -41,7 +47,7 @@ ul {
 
 .fa-bolt {
   float: left;
-  margin-top: 15px;
+  margin: 15px 0 0 15px;;
 }
 
 .contact {
@@ -126,12 +132,12 @@ ul {
 
 .our-image {
   letter-spacing: -.4em;
-  margin: 40px auto 0 auto;
+  margin: 40px auto 0;
   z-index: 1;
 }
 
 .image-unit {
-  display: inline-block;
+  float: left;
   margin: 80px 0 0 100px;
   opacity: 0.7;
   transition: opacity 0.3s;
@@ -219,6 +225,8 @@ ul {
 }
 
 .sns-title {
+  letter-spacing: -.4em;
+  text-indent: -.4em;
   text-align: center;
 }
 
@@ -283,10 +291,11 @@ ul {
   
   .image-unit {
     display: block;
+    float: initial;
     margin: 0;
   }
   
-  .image-unit:nth-child(4) {
+  .image-unit:nth-child(3n+4) {
     margin-top: 80px;
   }
 
@@ -295,7 +304,6 @@ ul {
   }
 
   .our-text {
-    display: inline;
     width: auto;
   }
   
@@ -334,7 +342,7 @@ ul {
     display: inline;
     float: right;
     padding: 10px;
-    margin-left: 70%;
+    margin-right: 5px;
     opacity: 0.3;
     transform: scale(1.3, 1);
   }
@@ -358,10 +366,10 @@ ul {
   }
   
   .what-text {
-    margin: 35px auto 0 auto;
+    margin: 35px auto 0;
   }
   
-  .image-unit:nth-child(4) {
+  .image-unit:nth-child(3n+4) {
     margin-top: 80px;
   }
 
