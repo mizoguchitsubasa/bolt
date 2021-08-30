@@ -140,12 +140,6 @@ ul {
 .image-unit {
   float: left;
   margin: 80px 0 0 100px;
-  opacity: 0.7;
-  transition: opacity 0.3s;
-}
-
-.image-unit:hover {
-  opacity: 1;
 }
 
 .image-unit:nth-child(3n+1) {
@@ -157,11 +151,17 @@ ul {
 }
 
 .image-unit a {
-  display: block;
+  display: inline-block;
 }
 
 .vertical-align-middle {
   vertical-align: middle;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.vertical-align-middle:hover {
+  opacity: 1;
 }
 
 .our-unit {
@@ -344,9 +344,9 @@ ul {
     padding: 10px;
     display: flex;
     position: fixed;
-    top: 10px;
+    top: 14px;
     right: 15px;
-    height: 30px;
+    height: 28px;
     width: 40px;
     align-items: center;
     justify-content: center;
