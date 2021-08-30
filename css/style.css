@@ -2,7 +2,6 @@
 
 body {
   font-family: 'Lato';
-  margin: 0 auto;
 }
 
 main {
@@ -47,7 +46,7 @@ ul {
 
 .fa-bolt {
   float: left;
-  margin: 15px 0 0 15px;;
+  font-size: 50px;
 }
 
 .contact {
@@ -260,7 +259,7 @@ ul {
 
 .footer-text {
   color: #fff;
-  margin-left: 800px;
+  float: right;
 }
 
 @media screen and (max-width: 1199px) {
@@ -336,15 +335,40 @@ ul {
     display: none;
   }
 
-  .fa-bars {
+  .menu-btn {
+    background-color: #fff;
     border : 1px solid #ddd;
     border-radius: 4px;
-    display: inline;
-    float: right;
     padding: 10px;
-    margin-right: 5px;
-    opacity: 0.3;
-    transform: scale(1.3, 1);
+    display: flex;
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    height: 30px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+  }
+
+  .menu-btn span,
+  .menu-btn span:before,
+  .menu-btn span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 30px;
+    border-radius: 3px;
+    background-color: #ddd;
+    position: absolute;
+  }
+
+  .menu-btn span:before {
+    bottom: 8px;
+  }
+
+  .menu-btn span:after {
+    top: 8px;
   }
   
   .theme {
